@@ -44,7 +44,8 @@ class Telefones extends Component {
                             tituloCard="Encontre aqui endereço do EcoPonto mais próximo de você"
                             texto="Você sabia que há um limite para descartes nos Ecopontos? Saiba mais no telefone (informações: 0800 7777 156), assim como o horário de funcionamento e muito mais no link Saiba mais."
                             href="https://saopaulosao.com.br/conteudos/outros/1679-saiba-o-que-descartar-nos-90-ecopontos-de-sao-paulo.html#"
-                        />
+                            height="300"
+                            />
                     </div>
                     <div>
                         <Cards
@@ -53,7 +54,7 @@ class Telefones extends Component {
                             tituloCard="Estações de reciclagem"
                             texto="Busque telefone e endereços de estações de reciclagem"
                             href="https://www.zapmeta.com.br/?vid=l1792091185I1595521808&bkw=n&template=&asid=br_gc5_02&awc=zmbr&ac=1847&de=c&nwc=&suggest=1&q=coleta+de+material+reciclavel"
-                        />
+                            height="300"/>
                     </div>
                     <div>
                         <Cards
@@ -62,6 +63,7 @@ class Telefones extends Component {
                             tituloCard="Ministério do Meio Ambiente"
                             texto="Nesse link você vai conhecer um pouco mais os programas do Ministério do Meio Ambiente, como educação ambiental, cerrado sustentável e atendimento ao cidadão, dentre outras informações."
                             href="https://www.mma.gov.br/"
+                            height="140"
                         />
                     </div>
                 </section>

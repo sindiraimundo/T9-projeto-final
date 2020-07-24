@@ -42,13 +42,14 @@ class Home extends Component {
                 />
                 {/* CARDS */}
                 <section className="secaoCards">
-                    <div className>
+                    <div>
                         <Cards
                             src={imgCard1}
                             alt="Imagem de lixo espalhado à margem de um rio"
                             tituloCard="Produção de lixo no Brasil"
                             texto="Você sabia que o Brasil é o 4º país no mundo que mais produz lixo. São 11.355.220 toneladas e apenas 1,28% de reciclagem."
                             href="https://agenciabrasil.ebc.com.br/internacional/noticia/2019-03/brasil-e-o-4o-pais-que-mais-produz-lixo-no-mundo-diz-wwf"
+                            height="300"
                         />
                     </div>
                     <div>
@@ -58,6 +59,7 @@ class Home extends Component {
                             tituloCard="Entenda o que são os símbolos de reciclagem"
                             texto="Saiba mais o que representa cada um dos símbolos de reciclagem"
                             href="https://conexaoplaneta.com.br/blog/voce-sabe-o-que-significam-os-simbolos-de-reciclagem/"
+                            height="300"
                         />
                     </div>
                     <div>
@@ -67,6 +69,7 @@ class Home extends Component {
                             tituloCard="Como descartar medicamentos vencidos"
                             texto="Veja como é o descarte correto de medicamentos vencidos, entenda o porque não podemos realizar o descarte juntamente com o lixo doméstico"
                             href="https://www.ecycle.com.br/149-descarte-de-medicamentos"
+                            height="300"
                         />
                     </div>
                 </section>

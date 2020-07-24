@@ -13,10 +13,7 @@ const useStyles = makeStyles({
   root: {
     maxWidth: 345,
   },
-    media: {
-      height: 140,
-  },
-});
+ });
 
 export default function ImgMediaCard(props) {
   const classes = useStyles();
@@ -27,7 +24,7 @@ export default function ImgMediaCard(props) {
         <CardMedia
           component="img"
           alt={props.alt}
-          height="140"
+          height={props.height}
           image={props.src}
           title="Contemplative Reptile"
         />

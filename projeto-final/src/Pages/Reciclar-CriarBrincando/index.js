@@ -44,6 +44,7 @@ class CriarBrincando extends Component {
                             tituloCard="Criando minhoca com tampinhas Pet"
                             texto="Compartilhe a experiência de criar brinquedos recicláveis com seu pequeno ou pequena. Aproveite para se divertirem juntos."
                             href="https://youtu.be/oFB1IdBtQME"
+                            height="300"
                         />
                     </div>
                     <div>
@@ -53,6 +54,7 @@ class CriarBrincando extends Component {
                             tituloCard="Brincadeiras e Jogos com produtos recicláveis"
                             texto="Aprenda a fazer jogos divertidos com papelão e outros materiais, divirta-se ajudando o meio ambiente"
                             href="https://youtu.be/ATZSdQkoA4A"
+                            height="300"
                         />
                     </div>
                     <div>
@@ -62,6 +64,7 @@ class CriarBrincando extends Component {
                             tituloCard="Artesanato com produtos recilavéis"
                             texto="Nesse vídeo você pode aprender diversa forma de como reutilizar embalagens que poderiam ser descartadas e quem sabe até criar uma fonte de renda sustentável."
                             href="https://youtu.be/8uNQZdcZ2u8"
+                            height="300"
                         />
                     </div>
                 </section>

@@ -1,6 +1,7 @@
 body{
     background: #E5E5E5;
     margin: auto;
+    font-family: Ubuntu;
 }
 .navBar{
     background: #3ACE7C;
@@ -53,6 +54,39 @@ li a {
     font-weight: bold;
     color: #175432;
 }
+.sobreCaixa{
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin-left: 41px;
+}
+
+.sobreTexto{
+    text-align: center;
+    width: 75%;
+    padding: 140px;
+    font-family: Ubuntu;
+    color: #175432;
+    font-size: 21px;
+    line-height: 46px;
+}
+
+.imgSobre{
+    width: 84%;
+    height: 129%;
+    margin-top: 42px;
+}
+
+.MuiPaper-root .MuiCard-root .makeStyles-root-1 .MuiPaper-elevation1 .MuiPaper-rounded{
+    /* height: 328px; */
+}
+
+.MuiCardActions-root {
+    display: flex;
+    padding: 8px;
+    align-items: center;
+    justify-content: center;
+}
 
 footer{
     background: #3ACE7C;
@@ -68,4 +102,7 @@ footer{
 footer p{
     text-align: center;
     margin: 90px auto 36px auto;
+    font-family: Ubuntu;
+    color: #175432;
+    font-size: 21px;
 }
