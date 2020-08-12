@@ -18,26 +18,20 @@ class CriarBrincando extends Component {
     }
     render() {
         return (
-            <main>
-                {/* CABEÇALHO */}
-                <header className="cabecalho">
-
-                    <NavBar
-                        imgNav={imgNav}
-                        texto="imagem de perfil de pessoa na cor verde"
-                    />
-
-                </header>
-                {/* SOBRE */}
-                <Sobre
-                    imgSobre={imgSobre}
-                    titulo="Reciclar e Criar Brincando"
-                    texto="Já pensou quantas coisa podem ser criadas com materiais que eventualmente seriam descartados. Podemos criar brinquedos, brincadeiras e artesanatos de diversas maneira diferentes. Já pensoou que muitas pessoas têm sua renda provida do material reciclável, aproveite e veja algumas idéias sugeridas abaixo e mãos na massa divirta-se."
-                    textoImg="imagem do planeta verde"
+            <>
+                <NavBar
+                    imgNav={imgNav}
+                    textoImgNav="imagem de perfil de pessoa na cor verde"
+                    textoImgLogoReciclartexto="Imagem do logo da Reclicar Bem Reciclar Já"
                 />
-                {/* CARDS */}
-                <section className="secaoCards">
-                    <div>
+                <main>
+                    <Sobre
+                        imgSobre={imgSobre}
+                        titulo="Reciclar e Criar Brincando"
+                        texto="Já pensou quantas coisa podem ser criadas com materiais que eventualmente seriam descartados. Podemos criar brinquedos, brincadeiras e artesanatos de diversas maneira diferentes. Já pensoou que muitas pessoas têm sua renda provida do material reciclável, aproveite e veja algumas idéias sugeridas abaixo e mãos na massa divirta-se."
+                        textoImg="imagem do planeta verde"
+                    />                    
+                    <section className="secaoCards">
                         <Cards
                             src={imgCard1}
                             alt="Foto de minhoca de tampa de garrafa pet colorida"
@@ -46,8 +40,6 @@ class CriarBrincando extends Component {
                             href="https://youtu.be/oFB1IdBtQME"
                             height="300"
                         />
-                    </div>
-                    <div>
                         <Cards
                             src={imgCard2}
                             alt="Foto de jogo de dama com tampas de garrafa pet"
@@ -56,8 +48,6 @@ class CriarBrincando extends Component {
                             href="https://youtu.be/ATZSdQkoA4A"
                             height="300"
                         />
-                    </div>
-                    <div>
                         <Cards
                             src={imgCard3}
                             alt="Foto de porta caneta com 3 entradas, feito com garrafa pet verde"
@@ -66,13 +56,12 @@ class CriarBrincando extends Component {
                             href="https://youtu.be/8uNQZdcZ2u8"
                             height="300"
                         />
-                    </div>
-                </section>
+                    </section>
 
-                {/* FOOTER */}
+                </main>
                 <Footer
                     textoFooter="© 2020 Produzido por Sindi Raimundo da Silva enquanto aluna da {reprograma}. Todos os direitos reservados." />
-            </main>
+            </>
         )
     }
 }

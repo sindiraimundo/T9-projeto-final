@@ -2,7 +2,7 @@ import React from 'react';
 import Home from './Pages/Home';
 import CriarBrincando from './Pages/Reciclar-CriarBrincando';
 import Hortas from './Pages/Hortas';
-import Telefones from './Pages/TelefonesUteis'
+import LinksUteis from './Pages/LinksUteis';
 import { Route, Switch } from 'react-router-dom';
 
 
@@ -14,8 +14,7 @@ function App() {
         <Route exact path="/" render={props => <Home {...props}/>}/>
         <Route path="/reciclar-e-criar-brincando" render={props => <CriarBrincando {...props}/>}/>
         <Route path="/hortas-reciclar" render={props => <Hortas {...props}/>}/>
-        <Route path="/telefones-uteis" render={props => <Telefones {...props}/>}/>
-
+        <Route path="/links-uteis" render={props => <LinksUteis {...props}/>}/>
       </Switch>
     </div>
   );

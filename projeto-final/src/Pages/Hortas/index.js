@@ -18,26 +18,22 @@ class Hortas extends Component {
     }
     render() {
         return (
-            <main>
-                {/* CABEÇALHO */}
-                <header className="cabecalho">
-
-                    <NavBar
-                        imgNav={imgNav}
-                        texto="imagem de perfil de pessoa na cor verde"
+            <>
+                <NavBar
+                    imgNav={imgNav}
+                    textoImgNav="imagem de perfil de pessoa na cor verde"
+                    textoImgLogoReciclartexto="Imagem do logo da Reclicar Bem Reciclar Já"
+                />
+                <main>
+                    <Sobre
+                        imgSobre={imgSobre}
+                        titulo="Hortas Reciclar"
+                        texto="Grande parte do lixo que produzimos, podemos reaproveitar, como por exemplo o lixo orgânico. Já pensou em produzir seu próprio adubo orgânico, utilizando casca de frutas, ovos entre outras coisa que seriam descartasdas e ainda poder montar sua horta sustentável e cultivar temperos, ervas, frutos e moito mais, separamos algumas dicas para que você embarque nessa terapia sustentável, aproveite as idéias e coloque sua criatividade a prova."
+                        textoImg="imagem do planeta verde"
                     />
 
-                </header>
-                {/* SOBRE */}
-                <Sobre
-                    imgSobre={imgSobre}
-                    titulo="Hortas Reciclar"
-                    texto="Grande parte do lixo que produzimos, podemos reaproveitar, como por exemplo o lixo orgânico. Já pensou em produzir seu próprio adubo orgânico, utilizando casca de frutas, ovos entre outras coisa que seriam descartasdas e ainda poder montar sua horta sustentável e cultivar temperos, ervas, frutos e moito mais, separamos algumas dicas para que você embarque nessa terapia sustentável, aproveite as idéias e coloque sua criatividade a prova."
-                    textoImg="imagem do planeta verde"
-                />
-                {/* CARDS */}
-                <section className="secaoCards">
-                    <div>
+                    <section className="secaoCards">
+
                         <Cards
                             src={imgCard1}
                             alt="Foto de pai e filho plantando"
@@ -46,8 +42,7 @@ class Hortas extends Component {
                             href="https://youtu.be/zMLnAT1VYvQ"
                             height="300"
                         />
-                    </div>
-                    <div>
+
                         <Cards
                             src={imgCard2}
                             alt="Foto de balde preto com folhas e restos de alimentos para adudo"
@@ -56,8 +51,7 @@ class Hortas extends Component {
                             href="https://ciclovivo.com.br/vida-sustentavel/bem-estar/aprenda-a-usar-corretamente-o-lixo-organico-como-adubo-caseiro/"
                             height="300"
                         />
-                    </div>
-                    <div>
+
                         <Cards
                             src={imgCard3}
                             alt="Conjunto de três fotos de hortas feitas com garrafas pets, plantas dentro das garrafas"
@@ -66,14 +60,12 @@ class Hortas extends Component {
                             href="https://youtu.be/xQIPOCs4Ryk"
                             height="300"
                         />
-                    </div>
-                </section>
 
-
-                {/* FOOTER */}
+                    </section>
+                </main>
                 <Footer
                     textoFooter="© 2020 Produzido por Sindi Raimundo da Silva enquanto aluna da {reprograma}. Todos os direitos reservados." />
-            </main>
+            </>
         )
     }
 }
