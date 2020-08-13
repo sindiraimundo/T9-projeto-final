@@ -115,18 +115,13 @@ section p {
 
 footer{
     background-color: #3ACE7C;
-    width: 100%;
-    height: 22%;
-    margin-top: 80px; 
-    align-items: center;
-    text-align: center;
-    top: 1107px;
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
    
 }
 
 footer p{
-    text-align: center;
-    margin: 90px auto 36px auto;
     font-family: Ubuntu;
     color: #175432;
     font-size: 21px;
