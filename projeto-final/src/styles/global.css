@@ -6,10 +6,11 @@ body{
 
 header{
    background-color: #3ACE7C;
+   max-width: 100%;
 }
 .navBar{
     display: flex;
-    width: 100%;
+    max-width: 100%;
 }
 
 .logoPrincipal{
@@ -77,9 +78,6 @@ li a {
     margin-top: 50px;
 }
 
-section p {
-    
-}
 .secaoCards{
     display: flex;
     justify-content: space-around;
@@ -125,4 +123,61 @@ footer p{
     font-family: Ubuntu;
     color: #175432;
     font-size: 21px;
+}
+
+/* :1280px (desktop)
+1024px (tablet - horizontal)
+768px (tablet - vertical)
+420px (mobile) */
+
+@media (max-width: 1280px) {
+
+    header{
+       
+    }
+
+    .navBar{
+        
+    }
+}
+    
+@media (max-width: 1024px) {
+        
+    header{
+    }
+    
+    .navCaixa{
+        padding: 21px;
+    }
+
+    .navLista{
+        display: flex;
+        justify-content: center;
+        background-color: #9CF39C;
+    }
+                
+    li{
+        padding: 18px;
+    }
+
+    li a {
+        font-size: 1rem;
+    }
+
+}
+
+@media (max-width: 768px) {
+
+    header{
+        
+    }
+}
+
+@media (max-width: 420px) {
+
+    header{
+        width: 100%;
+    }
+
+
 }
